@@ -5,7 +5,7 @@ A to-do list created with React. Add new tasks, mark a task as done or undone, d
 ## Dependencies
 
 - React
-- (uuid)[https://github.com/uuidjs/uuid]
+- [uuid](https://github.com/uuidjs/uuid)
 
 ## Available Scripts
 
