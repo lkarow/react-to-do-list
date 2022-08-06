@@ -1,13 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app-wrap {
+  margin: 0 auto;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input,
+.btn {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgb(55, 55, 55);
+  border-radius: 6px;
+}
+
+.todo {
+  margin: 8px 0;
+}
+
+.todo-list {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.todo input {
+  margin-right: 5px;
+}
+
+.todo button {
+  float: right;
+  padding: 2px;
+  border: 1px solid rgb(55, 55, 55);
+  border-radius: 3px;
 }
